@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.heroes {
+  margin: 2%;
+}
+.heroes__container {
+  background-color: #82a43a;
+  padding: 5%;
+  margin: 2%;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.heroes__photo {
+  max-width: 100%;
+  
+}
+.heroes__photo img {
+  width: 100%;
+}
+.heroes__title {
+  color: black;
+  font-size: 20px;
+  text-align: start;
+}
+.heroes__subtitle {
+  color: white;
+  font-size: 20px;
+  text-align: start;
+}
+.heroes #heroes__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+}
